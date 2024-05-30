@@ -27,3 +27,16 @@ __3. Can Place Flowers__
 -return boolean True if n new flowers can be planted in flowerbed without violating the rules
 -flowerbed = [1,0,0,0,1] -n = 1 -output = True
 -flowerbed = [1,0,0,0,1] -n = 2 -output = False
+
+__4. Reverse Vowels of a String__
+-given a string s, reverse only all the vowels and return it
+-vowles are 'a','e', 'i', 'o', and 'u' in upper and lowercase more than once
+-s = "hello" -output = 'holle'
+-s = 'leetcode' -output = 'leotcede'
+
+__5. Reverse Words in a String__
+-given a string s, reverse the order of words
+-a word is a sequenxe of non-space character
+    -words in original string will be separated by at least one space
+-Return a string of the words in reverse order concatenated by a single space
+    -eliminate unnecessary white space
